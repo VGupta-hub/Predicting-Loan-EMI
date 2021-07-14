@@ -29,7 +29,9 @@ Total Monthly EMI
 
 No packages used. The complete calculation is as follows:
 
-EMI = Loam Amount*rate*((1+rate)**duration)/(((1+rate)**duration)-1)
+Loan Amount = Total Amount - Down Payment
+
+EMI = Loan Amount**rate*((1+rate)**duration)/(((1+rate)**duration)-1)
 
 Duration = Number of months*12
 
